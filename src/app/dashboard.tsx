@@ -25,6 +25,11 @@ export function Dashboard() {
         </div>
 
         <Section
+          title="Projects"
+          content="Here are a few personal and professional projects I've worked on, showcasing my development skills and creativity."
+        />
+
+        <Section
           title="Testimonials"
           content="Here are some testimonials from my clients and colleagues."
         />
