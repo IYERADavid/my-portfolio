@@ -4,7 +4,7 @@ import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin, FaMapMarkerAlt, FaPhone } fr
 export default function SideBar () {
     return (
         <>
-            <aside className="bg-[#1a1a1a] p-6 rounded-2xl shadow-xl w-full md:w-1/3">
+            <aside className="bg-[#1a1a1a] p-6 rounded-2xl shadow-xl w-full">
             <div className="flex flex-col items-center">
                 <Image src="/images/hero.jpg" alt="Avatar" width={100} height={70} className="rounded-full" />
                 <h1 className="text-2xl font-bold mt-4">David Iyera</h1>
