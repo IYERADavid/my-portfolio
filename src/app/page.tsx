@@ -9,11 +9,15 @@ export default function Home() {
       <main className="flex min-h-screen flex-col bg-[#121212] py-5">
 
       <div className="flex flex-col md:flex-row max-w-6xl mx-auto gap-8">
-
-        <SideBar />
+        {/* Sidebar */}
+        <div className="w-full p-5">
+          <SideBar />
+        </div>
 
         {/* Main Content */}
-        <Dashboard />
+        <div className="w-full md:w-3/4">
+          <Dashboard />
+        </div>
       </div>
 
       </main>
