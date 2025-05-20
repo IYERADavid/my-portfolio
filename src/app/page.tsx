@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaGlobe } from 'react-icons/fa';
 import SideBar from './sidebar';
 import { Dashboard } from './dashboard';
 
